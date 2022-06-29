@@ -8,7 +8,7 @@ class UsersController extends Controller
 {
     public function index()
     {
-        return view('admin.index');
+        return view('admin/users.index');
     }
 
     public function create()
